@@ -82,18 +82,17 @@
     
     
 }
-.jombotron-section{
-   
-}
+
 
 .container-2{
     background-color: #FFFFFF;
+    
 }
 
 .title-paket{
     margin-top: 50px;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     margin-bottom: 30px;
@@ -112,6 +111,24 @@
     margin-right: 100px;
     width: 500px;
     height: 900px;
+    margin-bottom: 30px;
+    border: 4px solid #1A84FF;
+}
+
+.paket-com3{
+    background-color: #FFFFFF;
+    margin-left: 300px;
+    width: 500px;
+    height: 1200px;
+    margin-bottom: 30px;
+    border: 4px solid #1A84FF;
+}
+
+.paket-com4{
+    background-color: #FFFFFF;
+    margin-right: 100px;
+    width: 500px;
+    height: 1200px;
     margin-bottom: 30px;
     border: 4px solid #1A84FF;
 }
@@ -202,6 +219,141 @@
     font-weight: 400;
 }
 
+.container-3{
+    background-color: #E5F1FF;
+    height: 700px;
+}
+
+.jumbotron-2{
+    height: 490px;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+
+
+.benefit{
+    width: 700px;
+    margin-top: 130px;
+    margin-left: 70px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.list-benefit{
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.mar-check-benefit{
+    margin-right: 20px;
+    color: #2db21b;
+}
+
+.point-benefit{
+    margin-top: 20px;
+   
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.container-3{
+    background-color: #E5F1FF;
+    height: 600px;
+}
+
+.testimoni1{
+    border: 4px solid #1A84FF;
+    width: 450px;
+    height: 300px;
+   
+    background-color: #ffffff;
+    margin-left: 100px;
+}
+.box-testimoni1{
+    border: 4px solid #1A84FF;
+    width: 450px;
+    height: 120px;
+    margin-bottom: 20px;
+    background-color: #D4E8FF;
+    margin-left: 100px;
+    margin-top: 0;
+}
+.testimoni2{
+    border: 4px solid #1A84FF;
+    width: 450px;
+    height: 300px;
+   
+    background-color: #ffffff;
+    margin-left: 50px;
+}
+
+.box-testimoni2{
+    border: 4px solid #1A84FF;
+    width: 450px;
+    height: 120px;
+    margin-bottom: 20px;
+    background-color: #D4E8FF;
+    margin-left: 50px;
+    margin-top: 0;
+}
+.testimoni3{
+    border: 4px solid #1A84FF;
+    width: 450px;
+    height: 300px;
+   
+    background-color: #ffffff;
+    
+}
+.box-testimoni3{
+    border: 4px solid #1A84FF;
+    width: 450px;
+    height: 120px;
+    margin-bottom: 20px;
+    background-color: #D4E8FF;
+   
+    margin-top: 0;
+}
+
+.rating-star{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #d2ce03;
+}
+
+.pesan-testimoni{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+    padding: 10px;
+}
+
+.foto-testimoni{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+.nama-tester{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.profesi-tester{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
 @media (max-width:600px){
 
     .selogan h1{
