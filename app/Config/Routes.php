@@ -35,6 +35,13 @@ $routes->set404Override();
 
 //$routes->get('/welcome', 'User::index');
 $routes->get('/', 'Landing::landing');
+$routes->get('/pembayaran', 'Payment::bayar');
+$routes->post('/pembayaran/proses', 'Payment::proses');
+
+$routes->get('/dash-admin', 'Admin::index');
+$routes->get('/login', 'Auth::login');
+$routes->get('/register', 'Auth::register');
+
 
 
 

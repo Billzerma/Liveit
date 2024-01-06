@@ -26,13 +26,13 @@
             </div>
             <div class="col-md-6 bg">
                 <div class="selogan">
-                    <h1>Temukan Tempat</h1>
-                    <h1>Nyaman Saat</h1>
-                    <h1>Live !</h1>
+                    <h1>Selamat Datang di LIVEit!</h1>
+                    <h1>Kami Lebih Mudah Disewa Daripada Meminjam Gajah Untuk Keperluan Kreatif Anda</h1>
+                    <br>
                     <h2>Mulai Dari</h2>
-                    <h1 class=harga>Rp<span>40.000/hari</span></h1>
+                    <h1 class="harga">Rp<span>40.000/hari</span></h1>
 
-                    <a href="" class="callbutton">Dapatkan Sekarang</a>
+                    <a href="" class="callbutton">Coba Sekarang</a>
                 </div>
             
             </div>
@@ -43,15 +43,41 @@
     </div>
 
     <div class="container-2">
-
-    <div class="row paket-section">
+     <div class="row paket-section">
         <h1 class="title-paket">Pilih Paket Sewa Sesuai Kebutuhan Anda</h1>
-            <div class="col-md-6 ">
+           
+     </div>
+     
+        
+<div class="row paket-section">
+    <div class="col-md-4 ">
                 <div class="paket-com1">
                    <h2 class="title-per-paket title-reguler">Reguler Commerce</h2>
                    <h4 class="title-per-paket sub-title-reguler">Cocok untuk  anda yang masih personal branding</h4>
                    <h1 class="harga-paket-com">Rp<span class="harga-paket">20.000</span> /jam</h1>
-                   <center><a href="" class="btn">Pilih Paket</a></center>
+                   <center><a  class="btn" id="pay-button">Pilih Paket</a></center>
+                   <script src="https://app.midtrans.com/snap/snap.js" data-client-key="SB-Mid-client-Yiz617C-xYRek433"></script>
+               <script type="text/javascript">
+                    document.getElementById('pay-button').onclick = function(){
+                    // SnapToken acquired from previous step
+                    snap.pay('<?=$snapToken?>', {
+                         // Optional
+                         onSuccess: function(result){
+                         /* You may add your own js here, this is just example */ document.getElementById('result-json').innerHTML += JSON.stringify(result, null, 2);
+                         },
+                         // Optional
+                         onPending: function(result){
+                         /* You may add your own js here, this is just example */ document.getElementById('result-json').innerHTML += JSON.stringify(result, null, 2);
+                         },
+                         // Optional
+                         onError: function(result){
+                         /* You may add your own js here, this is just example */ document.getElementById('result-json').innerHTML += JSON.stringify(result, null, 2);
+                         }
+                    });
+                    };
+               </script>
+                   
+                   
                    <h3 class="gear">Gear unggulan:</h3>
                    <ul class="list-com1">
                         <li><i class="fa-solid fa-circle-check"></i> Internet Stabil (20Mbps)</li>
@@ -72,14 +98,16 @@
                         <li><i class="fa-solid fa-circle-check"></i> Intelligent Noise Reduction</li>
                         <li><i class="fa-solid fa-circle-check"></i> Penggunaan sampai 20 jam</li>
                         <li><i class="fa-solid fa-circle-check"></i> max radius Penggunaan 15 meter</li>
-                        
                    </ul>
+
                 </div>
 
-
+                
+                
+                
             </div>
             
-            <div class="col-md-6 ">
+            <div class="col-md-4 ">
             <div class="paket-com2">
                    <h2 class="title-per-paket title-reguler">Sumpreme Commerce</h2>
                    <h4 class="title-per-paket sub-title-reguler">Cocok untuk  anda yang masih personal branding</h4>
@@ -113,10 +141,11 @@
 
             
             
-        </div>
+           
 
-        <div class="row paket-section">
-            <div class="col-md-6 ">
+<div class="row paket-section">
+
+            <div class="col-md-4 ">
                 <div class="paket-com3">
                    <h2 class="title-per-paket title-reguler">Reguler Gaming</h2>
                    <h4 class="title-per-paket sub-title-reguler">Cocok untuk  anda yang masih personal branding</h4>
@@ -163,7 +192,7 @@
                 </div>
             </div>
             
-            <div class="col-md-6 ">
+            <div class="col-md-4 ">
                 <div class="paket-com4">
                    <h2 class="title-per-paket title-reguler">Gaming Buddy</h2>
                    <h4 class="title-per-paket sub-title-reguler">Cocok untuk  anda yang masih personal branding</h4>
@@ -208,13 +237,8 @@
                         
                    </ul>
                 </div>
-            </div>
-
-            
-            
-        </div>
-
-    </div>
+     </div>
+     </div>
 
     <div class="container-3">
 
@@ -308,6 +332,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ceefbd64d0.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous">
+    
     
     
   </body>

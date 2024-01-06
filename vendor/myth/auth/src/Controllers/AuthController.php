@@ -196,7 +196,7 @@ class AuthController extends Controller
 
         // Success!
         //return redirect()->route('login')->with('message', lang('Auth.registerSuccess'));
-        return redirect()->route('info akun');
+        return redirect()->route('/login');
     }
 
     //--------------------------------------------------------------------
