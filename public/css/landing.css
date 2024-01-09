@@ -15,14 +15,15 @@
 .login{
    border: solid;
    background-color: #1A84FF;
-   margin-left: 670px;
-   margin-top: 40px;
+   margin-left: 100px;
+   margin-top: -80px;
+   margin-bottom: 80px;
    display: block;
    width: 120px;
-   height: 60px;
+   height: 50px;
    text-align: center;
    padding: 10px;
-   font-size: 20px;
+   font-size: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     text-decoration: none;
@@ -78,7 +79,8 @@
 .jumbotron{
     height: 490px;
     width: 700px;
-    margin-top: 70px;
+    margin-top: 40px;
+    margin-left: 30px;
     
     
 }
@@ -148,7 +150,7 @@
 
 .paket-com4{
     background-color: #FFFFFF;
-    margin-left: 300px;
+    margin-left: 310px;
     width: 400px;
     height: 1200px;
     margin-bottom: 30px;
@@ -201,6 +203,7 @@
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    padding: 13px;
 }
 
 .gear{
@@ -294,7 +297,7 @@
 .point-benefit{
     margin-top: 20px;
    
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
@@ -308,7 +311,7 @@
     border: 3px solid #1A84FF;
     width: 400px;
     height: 300px;
-   
+    border-radius: 20px;
     background-color: #ffffff;
     margin-left: 120px;
 }
@@ -320,12 +323,13 @@
     background-color: #D4E8FF;
     margin-left: 120px;
     margin-top: 0;
+    border-radius: 20px;
 }
 .testimoni2{
     border: 3px solid #1A84FF;
     width: 400px;
     height: 300px;
-   
+    border-radius: 20px;
     background-color: #ffffff;
     margin-left: 80px;
 }
@@ -338,6 +342,7 @@
     background-color: #D4E8FF;
     margin-left: 80px;
     margin-top: 0;
+    border-radius: 20px;
 }
 .testimoni3{
     border: 3px solid #1A84FF;
@@ -345,6 +350,7 @@
     height: 300px;
     margin-left: 50px;
     background-color: #ffffff;
+    border-radius: 20px;
     
 }
 .box-testimoni3{
@@ -355,6 +361,7 @@
     background-color: #D4E8FF;
     margin-left: 50px;
     margin-top: 0;
+    border-radius: 20px;
 }
 
 .rating-star{
@@ -396,6 +403,10 @@
 
 @media (max-width:600px){
 
+    body{
+        width: 600px;
+    }
+
     .selogan h1{
         font-size: 30px;
         font-family: 'Poppins', sans-serif;
@@ -407,7 +418,7 @@
     }
     .selogan{
        margin-top: 0;
-        margin-left: 30px;
+        margin-left: 10px;
         margin-bottom: 30px;
     }
     .selogan h2{
@@ -437,14 +448,14 @@
         height: 290px;
         width: 410px;
         margin-top: 30px;
-        margin-left: 60px;
+        margin-left: 80px;
         
     }
     .callbutton{
         
         width: 270px;
         height: 70px;
-        margin-left: 100px;
+        margin-left: 150px;
         margin-top: 20px;
        
     }
@@ -468,7 +479,7 @@
         height: 290px;
         width: 410px;
         margin-top: 40px;
-        margin-left: 60px;
+        margin-left: 70px;
     }
 
     .container-3{
@@ -476,6 +487,128 @@
         height: 1000px;
     }
     
+    .login{
+        margin-left: 450px;
+     }
+
+
+
+     .paket-com1{
+        margin-left: 100px;
+        width: 400px;
+        height: 900px;
+        margin-bottom: 30px;
+        
+       
+    }
+    .paket-com2{
+        margin-left: 100px;
+        width: 400px;
+        height: 900px;
+        margin-bottom: 30px;
+    }
+    
+    .paket-com3{
+       
+        margin-left: 100px;
+        width: 400px;
+        height: 1200px;
+        margin-bottom: 30px;
+    }
+    
+    .paket-com4{
+        
+        margin-left: 100px;
+        width: 400px;
+        height: 1200px;
+        margin-bottom: 30px;
+    }
+    
+    .title-per-paket{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .title-reguler{
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+    .sub-title-reguler{
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    
+    .harga-paket-com{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:500;
+    }
+    
+    .harga-paket{
+        text-align: center;
+        margin-top: 60px;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+    
+    .btn{
+        display: block;
+        margin-top: 30px;
+        background-color: white;
+        width: 200px;
+        height: 50px;
+        color: #000000;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+    
+    .gear{
+        margin-top: 30px;
+        margin-left: 40px;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    
+    } 
+    .list-com1{
+        list-style-type: none;
+        margin-left: 30px;
+    }
+    
+    
+    .list-com1 li{
+        margin-top: 10px;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+    
+    .spek-camera{
+        margin-left: 50px;
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+    
+    .list-spek-camera{
+        list-style-type: none;
+        margin-left: 60px;
+    }
+    
+    .list-spek-camera li{
+       
+        margin-top: 10px;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
 
 
     

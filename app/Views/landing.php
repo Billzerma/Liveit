@@ -13,16 +13,17 @@
     <link rel="stylesheet" type="text/css" href="<?= base_url('css\landing.css');?>">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <title>Hello, world!</title>
+    <title>LIVEit</title>
   </head>
   <body>
   <div class="container-fluid">
         <div class="row jombotron-section">
             <div class="col-md-6 ">
             <img src="Asset\liveit\landing\logo.png" alt="" class="logo">
+            <a href="" class="btn-primary login">Log In</a>
             </div>
             <div class="col-md-6 bg">
-            <a href="" class="btn-primary login">Log In</a>
+            
             </div>
             <div class="col-md-6 bg">
                 <div class="selogan">
@@ -50,32 +51,12 @@
      
         
 <div class="row paket-section">
-    <div class="col-md-4 ">
+    <div class="col-md-4  ">
                 <div class="paket-com1">
                    <h2 class="title-per-paket title-reguler">Reguler Commerce</h2>
                    <h4 class="title-per-paket sub-title-reguler">Cocok untuk  anda yang masih personal branding</h4>
                    <h1 class="harga-paket-com">Rp<span class="harga-paket">20.000</span> /jam</h1>
-                   <center><a  class="btn" id="pay-button">Pilih Paket</a></center>
-                   <script src="https://app.midtrans.com/snap/snap.js" data-client-key="SB-Mid-client-Yiz617C-xYRek433"></script>
-               <script type="text/javascript">
-                    document.getElementById('pay-button').onclick = function(){
-                    // SnapToken acquired from previous step
-                    snap.pay('<?=$snapToken?>', {
-                         // Optional
-                         onSuccess: function(result){
-                         /* You may add your own js here, this is just example */ document.getElementById('result-json').innerHTML += JSON.stringify(result, null, 2);
-                         },
-                         // Optional
-                         onPending: function(result){
-                         /* You may add your own js here, this is just example */ document.getElementById('result-json').innerHTML += JSON.stringify(result, null, 2);
-                         },
-                         // Optional
-                         onError: function(result){
-                         /* You may add your own js here, this is just example */ document.getElementById('result-json').innerHTML += JSON.stringify(result, null, 2);
-                         }
-                    });
-                    };
-               </script>
+                   <center><a  class="btn" id="pay-button">Coba Sekarang</a></center>
                    
                    
                    <h3 class="gear">Gear unggulan:</h3>
@@ -107,12 +88,12 @@
                 
             </div>
             
-            <div class="col-md-4 ">
+            <div class="col-md-4  ">
             <div class="paket-com2">
                    <h2 class="title-per-paket title-reguler">Sumpreme Commerce</h2>
                    <h4 class="title-per-paket sub-title-reguler">Cocok untuk  anda yang masih personal branding</h4>
                    <h1 class="harga-paket-com">Rp<span class="harga-paket">40.000</span> /jam</h1>
-                   <center><a href="" class="btn">Pilih Paket</a></center>
+                   <center><a href="" class="btn">Coba Sekarang</a></center>
                    <h3 class="gear">Gear unggulan:</h3>
                    <ul class="list-com1">
                         <li><i class="fa-solid fa-circle-check"></i>Internet Stabil (50Mbps)</li>
@@ -150,7 +131,7 @@
                    <h2 class="title-per-paket title-reguler">Reguler Gaming</h2>
                    <h4 class="title-per-paket sub-title-reguler">Cocok untuk  anda yang masih personal branding</h4>
                    <h1 class="harga-paket-com">Rp<span class="harga-paket">35.000</span> /jam</h1>
-                   <center><a href="" class="btn">Pilih Paket</a></center>
+                   <center><a href="" class="btn">Coba Sekarang</a></center>
                    <h3 class="gear">Gear unggulan:</h3>
                    <ul class="list-com1">
                         <li><i class="fa-solid fa-circle-check"></i> Internet Stabil (50Mbps)</li>
@@ -197,7 +178,7 @@
                    <h2 class="title-per-paket title-reguler">Gaming Buddy</h2>
                    <h4 class="title-per-paket sub-title-reguler">Cocok untuk  anda yang masih personal branding</h4>
                    <h1 class="harga-paket-com">Rp<span class="harga-paket">45.000</span> /jam</h1>
-                   <center><a href="" class="btn">Pilih Paket</a></center>
+                   <center><a href="" class="btn">Coba Sekarang</a></center>
                    <h3 class="gear">Gear unggulan:</h3>
                    <ul class="list-com1">
                         <li><i class="fa-solid fa-circle-check"></i> Internet Stabil (50Mbps)</li>
@@ -248,12 +229,13 @@
                </div>
 
                <div class="col-md-6 ">
-                    <h1 class="benefit">Bergabung Bersama Jutaan Streamer  dan Dapatkan Berbagai Keuntungan!</h1>
+                    <h1 class="benefit">Ga Perlu Lagi Ribet Buat Siapin Kebutuhan Streaming, Karena Disini:</h1>
                     <ul class="list-benefit">
-                        <li class="point-benefit"><i class="fa-sharp fa-solid fa-square-check fa-lg mar-check-benefit"></i>Pilihan Ruangan Berkualitas Tinggi</li>
-                        <li class="point-benefit"><i class="fa-sharp fa-solid fa-square-check fa-lg mar-check-benefit"></i>Alat Livestreaming Profesional</li>
-                        <li class="point-benefit"><i class="fa-sharp fa-solid fa-square-check fa-lg mar-check-benefit"></i>Fleksibilitas dan Skalabilitas</li> 
-                        <li class="point-benefit"><i class="fa-sharp fa-solid fa-square-check fa-lg mar-check-benefit"></i>Hemat Biaya</li>   
+                        <li class="point-benefit"><i class="fa-sharp fa-solid fa-square-check fa-lg mar-check-benefit"></i>Streaming Anti Ribet</li>
+                        <li class="point-benefit"><i class="fa-sharp fa-solid fa-square-check fa-lg mar-check-benefit"></i>Perlengkapan Streaming Yang Lengkap</li>
+                        <li class="point-benefit"><i class="fa-sharp fa-solid fa-square-check fa-lg mar-check-benefit"></i>Pilihan Ruangan nyaman dan Beraneka Ragam</li> 
+                        <li class="point-benefit"><i class="fa-sharp fa-solid fa-square-check fa-lg mar-check-benefit"></i>Jaminan Internet Anti Delay</li>   
+                         <li class="point-benefit"><i class="fa-sharp fa-solid fa-square-check fa-lg mar-check-benefit"></i>Hemat Biaya</li>   
                    </ul>
                </div>
           </div>
@@ -325,6 +307,77 @@
                
           </div>
     </div>
+
+
+    <!-- Footer -->
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class=" my-5 ">
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-dark foot" style="background-color: #ECEFF1">
+            <!-- Section: Social media -->
+
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="bagian-footer" style="padding-top: 10px;">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold">LIVEit</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                            Liveit adalah platform revolusioner yang memungkinkan pengguna menyewa ruangan premium untuk livestreaming. 
+                            Dengan fokus pada kualitas dan fleksibilitas, Liveit menawarkan ruangan dengan perangkat teknologi terkini, dukungan teknis, dan opsi personalisasi untuk memenuhi berbagai kebutuhan konten kreator.
+                             Platform ini tidak hanya sekadar tempat sewa ruangan, melainkan ekosistem lengkap yang mendukung pertumbuhan dan sukses konten kreator dalam dunia livestreaming.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold">Menu</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                <a href="#!" class="text-dark">Berita</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-dark">Cari Alumni</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold">Contact</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p><i class="fas fa-home mr-3"></i> STIKI Malang</p>
+                            <p><i class="fas fa-envelope mr-3"></i> alumniku@stiki.ac.id</p>
+                            <p><i class="fab fa-whatsapp mr-3"></i> + 01 234 567 88</p>
+                            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div  id="copyright" class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)"></div>
+
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+    <!-- End of .container -->
 
 
 

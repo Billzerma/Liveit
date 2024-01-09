@@ -41,7 +41,7 @@ $routes->post('/pembayaran/proses', 'Payment::proses');
 $routes->get('/dash-admin', 'Admin::index');
 $routes->get('/login', 'Auth::login');
 $routes->get('/register', 'Auth::register');
-
+$routes->get('/catalog', 'Home::home');
 
 
 
